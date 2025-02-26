@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  group_1:
+    build: .
+    ports:
+      - "8083:80"
+    volumes:
+      - C:/xamp/htdocs/GROUP_1/src:/var/www/html
